@@ -59,11 +59,28 @@ Visa approval is influenced by multiple factors such as wages, job titles, and e
 * XGBoost: Optimized model for best performance.
 
 # Performance Metrics
-Model	Accuracy	Precision	Recall	F1-Score	ROC-AUC
-Logistic Regression	82%	80%	78%	79%	0.85
-Random Forest	88%	86%	85%	85%	0.91
-XGBoost	91%	89%	88%	89%	0.93
+### **Model Performance**
 
+#### **Fine-Tuned Models**
+| **Model Name**              | **Accuracy** |
+|------------------------------|--------------|
+| K-Nearest Neighbors (KNN)    | **0.970000** |
+| Random Forest                | 0.955425     |
+| XGBClassifier                | 0.935191     |
+| CatBoost Classifier          | 0.929619     |
+| Decision Tree                | 0.928152     |
+
+#### **Base Models**
+
+| **Model Name**              | **Accuracy** |
+|------------------------------|--------------|
+| Gradient Boosting            | 0.895601     |
+| Support Vector Classifier    | 0.870088     |
+| AdaBoost Classifier          | 0.868328     |
+| Logistic Regression          | 0.744868     |
+
+### **Best Model**
+The **K-Nearest Neighbors (KNN)** model achieved the highest accuracy of **97%**. This fine-tuned model was selected as the best and final model for this project.
 
 
 # Results and Discussion
