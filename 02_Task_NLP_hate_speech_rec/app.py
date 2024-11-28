@@ -11,7 +11,7 @@ nltk.download('stopwords')
 
 # Load pre-trained model and tokenizer
 model = load_model("./model.h5")
-with open('tokenizer.pickle', 'rb') as handle:
+with open('./tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Define stopwords and stemmer
