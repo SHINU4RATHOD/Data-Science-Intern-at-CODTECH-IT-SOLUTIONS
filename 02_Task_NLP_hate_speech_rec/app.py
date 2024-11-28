@@ -11,7 +11,7 @@ nltk.download('stopwords')
 
 # Load pre-trained model and tokenizer
 model = load_model("02_Task_NLP_hate_speech_rec/model.h5")
-with open('./tokenizer.pickle', 'rb') as handle:
+with open('02_Task_NLP_hate_speech_rec/tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Define stopwords and stemmer
