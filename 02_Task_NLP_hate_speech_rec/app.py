@@ -10,7 +10,7 @@ from nltk.stem import SnowballStemmer
 nltk.download('stopwords')
 
 # Load pre-trained model and tokenizer
-model = load_model("model.h5")
+model = load_model("./model.h5")
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
